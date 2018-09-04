@@ -1,0 +1,6 @@
+groups:
+- name: JustADemo
+  rules:
+  - alert: WillFireInOneMinute
+    expr: up == 1
+    for: 1m
