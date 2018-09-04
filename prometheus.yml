@@ -4,7 +4,7 @@ global:
 scrape_configs:
 - job_name: just_myself
   static_configs:
-  - targets: ['localhost:9090']
+  - targets: ['localhost:9090', 'localhost:9191']
 
 rule_files:
 - alert.rules
